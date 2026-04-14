@@ -1,0 +1,51 @@
+# Environment variables (contains tokens!)
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Bot data
+config.json
+rr_panels.json
+*.db
+*.sqlite
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+
+# Compiled plugin files (too big for git)
+*.jar
+*.zip
+!example.zip
+
+# Sensitive backups
+*.bak
+*.backup
